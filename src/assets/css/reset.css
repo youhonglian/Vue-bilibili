@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*!
+ * =====================================================
+ * author：youhonglian
+ * Date：2017,6,9
+ * =====================================================
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,html,p,h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+}
+
+@media screen and(min-width: 769px) {
+  html, body {
+    width: 460px;
+    margin: 0 auto;
+  }
+  body{
+    
+    box-shadow: 0 0 30px gray;
+  }
+}
+
+body,html{
+	/*max-width: 760px; */
+	/*min-width: 320px; */
+	margin: auto;
+	background-color: #EAEAEA; 
+	font-size: 62.5% !important;
+	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+ul li{ 
+	list-style:none;
+}
+a{
+	text-decoration:none; 
+	display:inline-block;
+	color: inherit;
+	width: 100%;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	/*-webkit-transform:translate3d(0, 0, 0);*/
+}
+
+
+/*  MintUI重置样式  */
+.head .mint-header-title{
+    font-size: 1rem;
+}
+.cell-hd .mint-cell-wrapper .mint-cell-title{
+    width: 90px;
+}
+.mint-indicator-mask{
+	z-index: 999;
+}
+
+
+
+/* 公共样式  */
+.fa {
+	margin-left: 2rem;
+	font-size: 1.4rem;
+	/*color: #fff;*/
+}
+
+
+
+

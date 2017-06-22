@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    .par {
+        padding-left: 9%;
+        padding-top: 3%;
+    }
+    .item {
+        margin-left: 3.5%;
+        margin-right: 4%;
+        width: 25%;
+        height: 7rem;
+        display: inline-block;
+        img {
+            width: 3.5rem;
+            height: 3.5rem;
+            margin-bottom: 1.5rem;
+        }
+        span {
+            margin-left: -3.2rem;
+        }
+    }
+}

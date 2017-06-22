@@ -1,0 +1,194 @@
+   .float-bar {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background-color: #FA7198;
+    height: 3rem;
+    .fa-arrow-left {
+        margin-left: 1rem;
+        margin-top: .8rem;
+        margin-right: 3rem;
+    }
+    span {
+        margin-top: .7rem;
+        margin-right: 17rem;
+    }
+    .fa-ellipsis-v {
+        margin-top: 1rem;
+        margin-right: 3rem;
+    }
+}
+video {
+        width: 100%;
+        height: 30%;
+        background-color: black;
+}
+.description {
+    width: 100%;
+    height: 2.65rem;
+    background-color: #fff;
+    ul {
+        display: flex;
+        li {
+            line-height: 2.65rem;
+        }
+        .info {
+            margin-left: .5rem;
+            margin-right: 1rem;
+        }
+        a {
+            position: relative;
+        }
+        li:active {
+            color: #FA7198;
+            font-weight: 550;
+            position: relative;
+        }
+        li:active:after {
+            content: ' ';
+            position: absolute;
+            bottom: 0rem;
+            left: 0.04rem;
+            right: 3rem;
+            width: 100%;
+            border-bottom: .27rem solid #FA7198;
+        }
+    }
+}
+.content {
+    .title {
+        margin-left: .7rem;
+        margin-right: .3rem;
+        margin-top: .7rem;
+        font-size: 1.5rem;
+    }
+    .num {
+        margin-top: 1rem;
+        margin-left: 1.0rem;
+        img{
+            vertical-align: bottom
+        }
+    }
+    .desc {
+        margin-top: 1rem;
+        margin-left: 1.0rem;
+        margin-right: .9rem;
+    }
+    .author {
+        border-top: 1px solid #AFAFAF;
+        border-bottom: 1px solid #AFAFAF;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        img {
+            width: 4rem;
+            height: 4rem;
+            margin-left: 1rem;
+            border-radius: 50%;
+        }
+        .name {
+            position: relative;
+            color: #FA7198;
+            top: -1.5rem;
+            margin-left: 1rem;
+        }
+        .follow {
+            position: absolute;
+            color: #FA7198;
+            margin-top: 1.1rem;
+            right: 2rem;
+            border: 1px solid #FA7198;
+            padding: .5rem;
+            border-radius: .5rem;
+        }
+    }
+    .tagAll {
+           width: 90%;
+           margin: 0 auto;
+           margin-top: 1rem;
+           .tagAbout {
+               position: relative;
+               top: 1rem;
+               left: -.5rem;
+               display: block;
+           }
+           .tag {
+                position: relative;
+                padding-left: .5rem;
+                padding-right: .5rem;
+                margin-left: .2rem;
+                margin-right: .3rem;
+                top: 2.0rem;
+                left: -.5rem;
+                font-size: 1.5rem;
+                border: 1px solid #AFAFAF;
+                background-color: #fff;
+                border-radius: .9rem;
+                width: 90%;
+            }
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4.5rem;
+        li {
+            border-bottom: 1px solid #AFAFAF;
+            color: #AFAFAF;
+             .avatar {
+                 width: 4rem;
+                 height: 4rem;
+                 border-radius: 50%;
+                 margin-top: 1.0rem;
+                 margin-left: 1.0rem;
+                 margin-bottom: -2.6rem;
+             }
+             .name {
+                 color: #FA7198;
+                 margin-left: .9rem;
+             }
+             .ico {
+                float: right;
+                margin-right: 1.7rem;
+                margin-top: 1.4rem;
+                .fa {
+                    margin-right: .5rem;
+                }
+             }
+             .comment {
+                 margin-left: 6rem;
+                 margin-top: 1rem;
+                 margin-bottom: 1rem;
+                 color: #000;
+             }
+         }
+    }
+    .talk {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 3rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        background-color: #FAFAFA; 
+        .emoji {
+            left: .3rem;
+            margin-top: .7rem;
+        }
+        input {
+            outline: none;
+            border: 0;
+            background-color: #FAFAFA;
+            border-bottom: 1px solid #FA7198;
+            width: 72%;
+            position: relative;
+            top: -1.4rem;
+            height: 2.5rem;
+        }
+        .send {
+            margin-left: .3rem;
+        }
+    } 
+}

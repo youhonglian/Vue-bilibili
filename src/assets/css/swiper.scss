@@ -1,0 +1,15 @@
+.wrap{
+    height: 130px;
+    overflow-x: hidden;
+    .swipe {
+         width: 100%;
+         height: 100%;
+         overflow-x: hidden;
+        img{
+         width: 100%;
+         height: 100%;
+         float: left;
+         }
+    }  
+
+}

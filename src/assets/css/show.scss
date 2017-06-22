@@ -1,0 +1,223 @@
+$netpink: #FA7198;
+.swiper {
+    width: 100%;
+    height: 100px;
+}
+ .banner-item {
+        display: flex;
+        height: 35%;
+        align-items: center;
+        background-color:#FAFAFA;
+        text-align: center;
+        .item {
+            flex: 1;   
+            text-align: center;
+            color: #000;
+        }
+}
+.totalshow {
+    > img {
+        vertical-align: middle;
+    }
+    .recommond {
+        margin-left: .5rem;
+    }
+    .right {
+        float: right;
+        margin-top: .85rem;
+        margin-right: .98rem;
+        .totalNum {
+            color: $netpink;
+        }
+    }
+}
+.about {
+    font: 16px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+     position: fixed;
+     top: 8%;
+    //  bottom: 0;
+     z-index: 99;
+     height: 85%;
+     width: 90%;
+     left: 5%;
+     right: 5%;
+     background-color: #FA9DA5;
+     transform: translate3d(0, 0, 0);
+     .close {
+         position: absolute;
+         right: 1.5rem;
+         top: 1.2rem;
+
+         color: #9c9c9c;
+     }
+     .title {
+         text-align: center;
+         margin-top: 1.9rem;
+
+         color: #000;
+     }
+     .name {
+
+         color: #000;
+         margin-top: 2rem;
+         margin-left: 1rem;
+         font-weight: 600;
+        //  text-align: center;
+     }
+     .job {
+
+         color: #000;
+         margin-top: 2rem;
+         margin-left: 1rem;
+         font-weight: 500; 
+        
+     }
+     .jobWanted {
+         color: #000;
+         margin-left: 2rem;
+     }
+      .jobDetail {
+             position: relative;
+
+             margin-left: 9rem;
+             top:-2rem;
+            //  margin: 2rem;
+            //  margin-bottom: 1rem;
+        }
+     .skill {
+
+         color: #000;
+         top: -1rem;
+         margin-left: 1rem;
+         font-weight: 500; 
+     }
+     .skillDetail {
+             position: relative;
+             left: 1.3rem;
+             top:1rem;
+            //  margin: 2rem;
+            //  margin-bottom: 1rem;
+        }
+     .desc {
+         color: #000;
+         margin-top: 2rem;
+         margin-left: 1rem;
+        //  font-weight: 500; 
+        a {
+            position: relative;
+            top: -2rem;
+            left: 6.9rem;
+            color: #9c9c9c;
+        }
+     }
+}
+.about.slide-enter-active,
+.about.slide-leave-active {
+transition: all 0.5s;
+}
+.about.slide-enter,
+.about.slide-leave-active {
+transform: translate3d(0, -100%, 0);
+}
+.mask.fade-enter-active,
+.mask.fade-leave-active {
+transition: all 0.5s;
+}
+.mask.fade-enter,
+.mask.fade-leave-active {
+opacity: 0;
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: rgba(7,17,27,0.6);
+}
+.aboutMe {
+            position: fixed;
+            z-index: 99;
+            left: 22rem;
+            top: 48rem;
+            width: 6rem;
+            height: 6rem;
+            background-color: #FA7198;
+            border-radius: 50%;
+            line-height: 6rem;
+            text-align: center;
+            .me {
+                width: 3rem;
+                height: 3rem;
+                margin-top: 1.3rem;
+                margin-left: 1rem;
+            }
+            .next {
+                width: 1rem;
+                height: 2rem;
+            }
+ }
+
+.show-content {
+    width: 100%;
+    position: relative;
+    // display: flex;
+    padding: {
+        // top: -10%;
+        left: 3.33%;
+        // right: 1rem;
+    }
+    .col-xs-6 {
+        width: 44%;
+        float: left;
+        position:relative;
+    }
+    .showItem {
+        padding: {
+        }
+        height: 13.6rem;
+        margin-right: 3.33%;
+        margin-bottom: 5%;
+        background-color: white;
+        border-radius: 3px;
+        border:1px solid #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        > img {
+            width: 100%;
+            height: 59%;
+            background-size: cover;
+        }
+           .showInfo {
+            margin-top: .5rem;
+            .showTag {
+                color: $netpink;
+            }
+            .showTitle {
+            }
+            .showUser {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                display: flex;
+                align-content: center;
+                .showAuthor {
+                    flex: 1;
+                    color: #9c9c9c;                   
+                }
+                .fa-eye {
+                        color: #c1c1c1;
+                }
+                .showNum {
+                    float: right;
+                    right: .6rem;
+                    color: #c1c1c1;
+                }
+
+            }
+        }
+    }
+}
+
+

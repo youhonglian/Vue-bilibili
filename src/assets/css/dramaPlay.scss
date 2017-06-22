@@ -1,0 +1,177 @@
+.float-bar {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background-color: #FA7198;
+    height: 3rem;
+    .fa-arrow-left {
+        margin-left: 1rem;
+        margin-top: .8rem;
+        margin-right: 3rem;
+        z-index: 99;
+    }
+    .span {
+        z-index: 99;
+        position: absolute;
+        margin-top: .75rem;
+        margin-left: 5rem;
+    }
+    .index {
+        margin-left: -42%;
+        margin-top: .76rem;
+    }
+}
+video {
+        width: 100%;
+        height: 30%;
+        background-color: black;
+}
+.Anthology {
+    margin-top: 1rem;
+    padding-left: .7rem;
+    .new {
+        position: absolute;
+        right: 1rem;
+        color: #9c9c9c;
+    }
+}
+.anthology_part {
+    height: 10rem;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;  
+    position: relative;  
+    margin-bottom: 1rem;
+    ul {
+        list-style: none;  
+        width:4000rem;  
+        display: flex;
+        margin-top: 1.9rem;
+        margin-left: .7rem;
+        li {
+            border: 1px solid #FA7198;
+            width: 9rem;
+            height: 5rem;
+            background-color: #FAFAFA;
+            border-radius: .7rem;
+            padding: .9rem;
+            color: #9c9c9c;
+            font-size: 1.5rem;
+            margin-right: 20px;
+            .part_name {
+                margin-bottom: .5rem;
+            }
+            .part_title {
+                overflow-y: hidden;
+                white-space: nowrap;
+                text-overflow : ellipsis 
+            }
+         } 
+    } 
+    
+}
+.showInfo {
+    margin-top: 2rem;
+    .title {
+        margin-left: .7rem;
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+    .desc {
+        margin-left: .7rem;
+        color: #9c9c9c;
+        width: 96%;
+        margin-bottom: .7rem;
+    }
+    .tagAbout {
+        font-size: 1.5rem;
+        margin-left: .7rem;
+        margin-bottom: 1rem;
+       
+    }
+    .tag {
+            border:1px solid #9c9c9c;
+            background-color: #fff;
+            border-radius: .9rem;
+            padding-left: .7rem;
+            padding-right: .7rem;
+            padding-top: .1rem;
+            padding-bottom: .1rem;
+            margin-left: .5rem;            
+    }
+}
+.comment {
+    margin-top: 1rem;
+    margin-left: .7rem;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    span {
+        margin-left: .3rem;
+        color: #9c9c9c;
+    }
+}
+ .cmtList {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4.5rem;
+        li {
+            border-bottom: 1px solid #AFAFAF;
+            color: #AFAFAF;
+             .avatar {
+                 width: 4rem;
+                 height: 4rem;
+                 border-radius: 50%;
+                 margin-top: 1.0rem;
+                 margin-left: 1.0rem;
+                 margin-bottom: -2.6rem;
+             }
+             .name {
+                 color: #FA7198;
+                 margin-left: .9rem;
+             }
+             .ico {
+                float: right;
+                margin-right: 1.7rem;
+                margin-top: 1.4rem;
+                .fa {
+                    margin-right: .5rem;
+                }
+             }
+             .comment {
+                 margin-left: 6rem;
+                 margin-top: 1rem;
+                 margin-bottom: 1rem;
+                 color: #000;
+             }
+         }
+    }
+    .talk {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 3rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        background-color: #FAFAFA; 
+        .emoji {
+            left: .3rem;
+            margin-top: .7rem;
+        }
+        input {
+            outline: none;
+            border: 0;
+            background-color: #FAFAFA;
+            border-bottom: 1px solid #FA7198;
+            width: 72%;
+            position: relative;
+            top: -1.4rem;
+            height: 2.5rem;
+        }
+        .send {
+            margin-left: .3rem;
+        }
+    } 
+    
