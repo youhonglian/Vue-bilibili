@@ -32,15 +32,16 @@ $netpink: #FA7198;
     }
 }
 .about {
-    font: 16px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+     font: 1.3rem "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
      position: fixed;
      top: 8%;
-    //  bottom: 0;
      z-index: 99;
      height: 85%;
      width: 90%;
      left: 5%;
      right: 5%;
+     overflow-x: hidden;
+     overflow-y: scroll;
      background-color: #FA9DA5;
      transform: translate3d(0, 0, 0);
      .close {
@@ -78,9 +79,8 @@ $netpink: #FA7198;
      }
       .jobDetail {
              position: relative;
-
-             margin-left: 9rem;
-             top:-2rem;
+             margin-left: 8rem;
+             top:-1.5rem;
             //  margin: 2rem;
             //  margin-bottom: 1rem;
         }
@@ -93,8 +93,10 @@ $netpink: #FA7198;
      }
      .skillDetail {
              position: relative;
-             left: 1.3rem;
-             top:1rem;
+             left: .5rem;
+             top: 1rem;
+             width: 50%;
+       
             //  margin: 2rem;
             //  margin-bottom: 1rem;
         }
@@ -105,7 +107,7 @@ $netpink: #FA7198;
         //  font-weight: 500; 
         a {
             position: relative;
-            top: -2rem;
+            top: -1.3rem;
             left: 6.9rem;
             color: #9c9c9c;
         }
@@ -139,8 +141,8 @@ opacity: 0;
 .aboutMe {
             position: fixed;
             z-index: 99;
-            left: 22rem;
-            top: 48rem;
+            right: 12%;
+            top: 85%;
             width: 6rem;
             height: 6rem;
             background-color: #FA7198;

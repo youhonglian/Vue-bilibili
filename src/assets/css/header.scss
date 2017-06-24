@@ -32,7 +32,7 @@ $netsmallsize: 1.4rem;
         .b-username {
             color: #fff;
             margin-left: 1rem;
-            font-size: #FA7198;
+            font-size: 1.6rem;
         }
         .right {
             float: right;          
@@ -51,6 +51,7 @@ $netsmallsize: 1.4rem;
                 text-align: center;
                 color: rgba(225,225,225,.95);
                 font-weight: 500;
+                font-size: 1.6rem;
             }
             a {
                 position: relative;
@@ -136,7 +137,6 @@ $netsmallsize: 1.4rem;
                 .user-username {
                     color: #fff;
                     font-weight:500;
-                    font-size: $netsmallsize;
                     margin-top: .2rem;
                     margin-right: .4rem;
                  }
@@ -160,7 +160,6 @@ $netsmallsize: 1.4rem;
                  }
                  .user-money {
                      color: #fff;
-
                  }
             }
         }
