@@ -1,7 +1,6 @@
+# vue-bilibili-master
 
-
-
-![image](https://github.com/youhonglian/Vue-bilibili/blob/master/src/assets/image/bilibili.gif)
+> A Vue.js project
 
 ## 项目描述
 
@@ -24,10 +23,15 @@
   * 切换主题（黑色和粉色的主题）
   * 搜索视频
   * 播放页面（简介、评论显示、发表评论、点赞、番剧选集）
+  
+  
+### 项目展示
+![image](https://github.com/youhonglian/Vue-bilibili/blob/master/src/assets/image/bilibili.gif)
 
-# vue-bilibili-master
+### 在线预览
+ https://youhonglian.github.io/vue-bilibili-master/#/
 
-> A Vue.js project
+
 
 ## Build Setup
 
