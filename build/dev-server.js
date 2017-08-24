@@ -29,7 +29,11 @@ var app = express()
 // res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS")
 // res.header("X-Powered-By", ' 3.2.1')
 // res.header("Content-Type", "application/json;charset=utf-8")
-// next()
+//  if (req.method === 'OPTIONS') {
+//       res.end('options ok');
+//  } else {
+//       next();
+//  }
 // })
 
 var compiler = webpack(webpackConfig)
